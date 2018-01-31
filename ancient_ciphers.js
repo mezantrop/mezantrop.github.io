@@ -1,6 +1,7 @@
 /*
   Gravity Falls Ciphers / Шифры Гравити Фолз
   Caesar, Atbash, Vigenere for kids
+
   -----------------------------------------------------------------------------
   "THE BEER-WARE LICENSE" (Revision 42):
   zmey20000@yahoo.com wrote this file. As long as you retain this notice you
