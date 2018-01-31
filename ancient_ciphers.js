@@ -1,7 +1,34 @@
+
+Skip to content
+This repository
+
+    Pull requests
+    Issues
+    Marketplace
+    Explore
+
+    @mezantrop
+
+0
+0
+
+    0
+
+mezantrop/gfaciphers
+Code
+Issues 0
+Pull requests 0
+Projects 0
+Wiki
+Insights
+Settings
+gfaciphers/ancient_ciphers.js
+2230fa9 Jan 31, 2018
+@mezantrop mezantrop Update ancient_ciphers.js
+134 lines (115 sloc) 4.72 KB
 /*
   Gravity Falls Ciphers / Шифры Гравити Фолз
   Caesar, Atbash, Vigenere for kids
-
   -----------------------------------------------------------------------------
   "THE BEER-WARE LICENSE" (Revision 42):
   zmey20000@yahoo.com wrote this file. As long as you retain this notice you
@@ -116,6 +143,9 @@ function code(action) {
     var outText = document.getElementById("outText");
     var shiftCaeser = 23;
 
+    inText = inText.replace(/<[^>]+>/g, '');
+    inKey = inKey.replace(/<[^>]+>/g, '');
+  
     switch(action.toLowerCase()) {
         case "decode":
             outText.innerHTML = ciphers(cipher, abcDict, inText.toLowerCase(), inKey.toLowerCase(), true, shiftCaeser)
@@ -128,3 +158,18 @@ function code(action) {
             break;
     }
 }
+
+    © 2018 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    API
+    Training
+    Shop
+    Blog
+    About
+
